@@ -1,4 +1,7 @@
-/audio
 codedump
 z_CODE_DUMP.txt
 audioFiles.js
+
+!/audio/
+/audio/*.mp3
+/audio/*/*.mp3
