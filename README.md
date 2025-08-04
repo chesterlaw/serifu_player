@@ -4,8 +4,6 @@ Serifu Player is a simple, responsive soundboard that lets you play audio with a
 
 **Serifu Player** is a lightweight local soundboard for filmmakers. It lets you trigger `.mp3` audio clips via keyboard or mouse, instantly and offline. Originally built for playing an absent actor’s lines (セリフ/serifu) during rehearsals or phone-call scenes, but flexible enough for any audio-triggering use.
 
----
-
 ## Requirements
 
 - A modern browser (Chrome recommended)
