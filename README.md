@@ -42,3 +42,6 @@ Press keys or click buttons. Audio plays. Press the spacebar (or click it) to pa
 - Run `refresh_audio_files.command` to update.
 - Open `serifu-player.html` to play.
 
+## License
+
+This project is released under [The Unlicense](http://unlicense.org/).
