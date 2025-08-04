@@ -6,7 +6,7 @@
   <style>
     body {
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      padding: 20px;
+      padding: 0px;
     }
     h1 {
       text-align: center;
@@ -19,7 +19,7 @@
     .statusbar {
       display: inline-block;
       font-size: 16px;
-      margin-bottom: 15px;
+      margin-bottom: 5px;
       padding: 8px;
       border: 1px solid #333;
       border-radius: 5px;
@@ -51,15 +51,12 @@
       justify-content: center;
       margin-bottom: 10px;
     }
+
     .key {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      padding: 5px 0;
+      position: relative;
       width: 50px;
-      height: 70px;
-      margin: 5px;
+      height: 60px;
+      margin: 0 4px;
       border: 1px solid #333;
       border-radius: 5px;
       background-color: #eee;
@@ -67,12 +64,23 @@
       user-select: none;
       transition: background-color 0.5s ease;
     }
+
     .key .number {
+      position: absolute;
+      top: 5px;
+      left: 50%;
+      transform: translateX(-50%);
       font-size: 12px;
     }
-    .key .key-char {
+
+    .key .char {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
       font-size: 24px;
     }
+
     .key.playing {
       background-color: #6c6;
     }
@@ -89,7 +97,7 @@
       justify-content: center;
       width: 400px;
       height: 50px;
-      margin: 20px auto;
+      margin: 0 auto;
       border: 1px solid #333;
       border-radius: 5px;
       background-color: #eee;
@@ -335,7 +343,7 @@
     keyEl.appendChild(numberEl);
 
     const charEl = document.createElement('div');
-    charEl.className = 'key-char';
+    charEl.className = 'char';
     charEl.textContent = keyChar.toUpperCase();
     keyEl.appendChild(charEl);
 
