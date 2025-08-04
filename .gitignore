@@ -1,6 +1,6 @@
 codedump
 z_CODE_DUMP.txt
-audioFiles.js
+assets/audioFiles.js
 
 !/audio/
 /audio/*.mp3
