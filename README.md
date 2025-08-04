@@ -1,6 +1,15 @@
-# Serifu Player: Mac Guide
+# Serifu Player:
 
 Serifu Player is a simple, responsive soundboard that lets you play audio with a single key press or click. It feels immediate, tactile, and satisfying.
+
+**Serifu Player** is a lightweight local soundboard for filmmakers. It lets you trigger `.mp3` audio clips via keyboard or mouse, instantly and offline. Originally built for playing an absent actor’s lines (セリフ/serifu) during rehearsals or phone-call scenes, but flexible enough for any audio-triggering use.
+
+---
+
+## Requirements
+
+- A modern browser (Chrome recommended)
+- `.mp3` audio files
 
 ---
 
@@ -22,12 +31,13 @@ Only files in the top level of `audio/` are used. To hide clips, move them into 
 ## 3. Refresh the App
 
 Double-click `refresh_audio_files.command` any time you add or remove audio files.
+This script regenerates `assets/audioFiles.js`, which the app uses to map keys to clips.
 
 ## 4. Use the App
 
-Open `serifu-player.html`. It runs in your browser.
+Double-click `serifu-player.html` to launch the app in your browser.
 
-Press keys or click buttons. Audio plays. Press the spacebar (or click it) to pause or resume.
+Tap a key or click a button and your audio plays instantly. Hit the spacebar to pause or resume.
 
 ## 5. Details
 
